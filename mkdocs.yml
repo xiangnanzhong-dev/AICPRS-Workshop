@@ -1,0 +1,26 @@
+site_name: NSF CyberTraining: AI-Driven Cyber-Physical Systems
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.tabs
+    - toc.integrate
+    - content.code.annotate
+  palette:
+    - scheme: default
+
+nav:
+  - Home: index.md
+  - Cyberinfrastructure: ci.md
+  - Training Program: training.md
+  - Team: team.md
+  - Events & News: events.md
+  - Apply: apply.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
